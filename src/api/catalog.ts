@@ -80,7 +80,7 @@ export default ({config, db}) => async function (req, res, body) {
 
   let indexName = ''
   let entityType = ''
-  if (urlSegments.length < 2) { 
+  if (urlSegments.length < 2) {
     const errMessage = 'No index name given in the URL. Please do use following URL format: /api/catalog/<index_name>/<entity_type>_search';
     console.error(errMessage);
     apiError(res, errMessage);
