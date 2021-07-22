@@ -75,7 +75,7 @@ module.exports = ({ config }) => {
 
   const getData = (requestBody, requestType, req, res, reqHash, tagsArray, numOfDays = 3) => {
     if (config.server.useOutputCache && cache) {
-      //cache.invalidate(requestType);
+      // cache.invalidate(requestType);
       cache.get(
         'weather-api:' + reqHash
       ).then(output => {
