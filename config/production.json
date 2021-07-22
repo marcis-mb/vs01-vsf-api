@@ -1,0 +1,11 @@
+{
+  "server": {
+    "useOutputCacheTagging": true,
+    "useOutputCache": true
+  },
+  "weather": {
+    "airQuality": "no",
+    "alerts": "no",
+    "key": "91e24cf1a2c843e691154944211507"
+  }
+}
